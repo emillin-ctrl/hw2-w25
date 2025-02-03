@@ -4,6 +4,7 @@ body {
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
 }
+
 h1 {
     font-size: 42px;
     text-align: center;
@@ -42,6 +43,7 @@ div {
     border-left: 5px solid;
 }
 .blue {
+    border: none;
     background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
@@ -52,6 +54,7 @@ div {
     color: #C4C4C4;
 }
 .yellow {
+    border: none;
     background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
@@ -62,11 +65,20 @@ div {
     color: #707070;
 }
 .green {
+    border: none;
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
     border-right: 5px solid;
     border-top: 2px solid;
+}
+.red {
+    border: none;
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid;
+    border-left: 5px solid;
 }
 button {
     width: 45%;
